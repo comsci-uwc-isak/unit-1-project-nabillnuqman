@@ -22,7 +22,7 @@ The client here wants to create a simple program so that he can simply keep tabs
 Design
 ---------
 ### First Sketch of the system
-![SystemDiagram](ComSci System Diagram.jpg)
+![SystemDiagram](ComSciSystemDiagram.jpg)
 
 Development
 --------
