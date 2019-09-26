@@ -6,5 +6,7 @@ I learned how to write my programs generally so that programmers that use any ot
 Questions?
 Homework
 100-150 words defining the problem (topic 1.1.1)
-Reflection (25 September 2019)
-We created a system diagram and learned how to upload it to github, then we created an installation file for the client in which we had a problem, the installation was not happening in the desired path.
+
+**Reflection (25 September 2019)**
+We created a system diagram and learned how to upload it to github, then we created an installation file for the client in which we had a problem, the installation was not happening in the desired path.<br/>
+Homework: provide a default folder/path for the installation inside Desktop, create the uninstall script
