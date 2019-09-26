@@ -64,6 +64,40 @@ It first had an issue where it would work but show an error [to do] Fix the bug,
 **Update:**
 It has been fixed, there should have been squared brackets instead of normal brackets.
 
+```.sh
+
+#!/bin/bash
+
+#THis file creates the folder strucutre for the
+#minimal Car Rental App
+
+echo "Starting the installation"
+
+cd /Users/nabillnuqman/Desktop
+#create app folder
+mkdir RentalCarApp
+
+cd RentalCarApp
+
+#create folder for database and scripts
+mkdir db
+mkdir scripts
+
+echo "Structure created successfully"
+  echo "Do you want to keep the file? yes/no"
+read option
+if [ $option == "yes" ]; then
+        echo "done"
+fi
+
+if [ $option == "no" ]; then
+        cd /Users/nabillnuqman/Desktop
+        rm -r RentalCarApp
+fi
+```
+**UpdateV2:**
+I have made a new app which instantly adds the folder into the desktop and gives the option to uninstall.
+
 Evaluation
 -----------
 
