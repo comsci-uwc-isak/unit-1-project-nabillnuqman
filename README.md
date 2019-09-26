@@ -96,7 +96,7 @@ if [ $option == "no" ]; then
 fi
 ```
 **UpdateV2:**
-I have made a new app which instantly adds the folder into the desktop and gives the option to uninstall.
+I have made a new program which instantly adds the folder into the desktop and gives the option to uninstall.
 
 Evaluation
 -----------
