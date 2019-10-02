@@ -16,7 +16,29 @@ Planning
 ----------
 **Defining the Problem (Topic 1.1.1)**
 (100-150 words explaining the context of the problem)
-The client here wants to create a simple program so that he can simply keep tabs on his car rental business. He wants to keep his data organised to increase the efficiency, productivity and quality of his business. 
+The client here wants to create a simple program so that he can simply keep tabs on his car rental business. He wants to keep his data organised to increase the efficiency, productivity and quality of his business.
+<br> Steps to Create a car in a system: <br>
+1. Get inputs (read/argument) (plates, model, color, passanger number)
+2. Check number of arguments. if 4 then continue, if not exit "message"
+3. Write to main file with one extra line. Not erasing other entries.
+4. Create Car trip file with licenseplate .txt
+
+### Rationale for proposed solution
+The context
+Old system
+Problems
+Motivation
+
+### Success Criteria
+This are measuarable outcomes
+1. A car can be created and stored in the database
+1. A car information can be edited
+1. A car can be deleted from the database
+1. The installation is ***simple -> one step process***
+1. A summary (total/average distance traveked) can be generated for a particular car
+1. Trips can be recorded and stored for an existing car.
+1. A basic database system is implemented.
+1. A basic backup functionality.
 
 
 Design
