@@ -122,6 +122,36 @@ I have made a new program which instantly adds the folder into the desktop and g
 
 Evaluation
 -----------
+Test 1:
+step 1: create a car using the script create
+step 2: check that the licebse file .txt was created
+step 3: Check that the car was added to the main file
+
+The first run of the test was unsuccessful because the database folder was nonexistent, The create program did not save the plate file inside the database. To solve that, the line `echo "" > $plate.txt` to `echo > db/$plate.txt` was changed.
+
+Second run realised that the test file needed to move to the main folder
+```
+cd ../
+```
+This is necessary because create.sh is in the main folder whereas the test file is in the /tests folder.
+
+We used the command tail to check if the car exists in the maincarfile.
+```
+lastline = $( tail -n 1 db/maincarfile.txt )
+```
+using tail, it reads the textfile from bottom up and we use -n 1 to read the first line.
+
+we added and if command, to check if it exist
+```
+if [ "TXM301 nissan red 9" == "$lastline" ];then
+        echo "test two: Record was entered correctly: passed"
+else
+        echo "Test two: Failed"
+fi
+```
+Quotation marks are used for lastline are used so that the word stays as a word, with quotation marks, the program will recognizes the spaces and count it as different words.
+
+
 
 
 
