@@ -24,3 +24,9 @@ Homework: Figure out a way to delete the car files and information
 
 
 **Reflection (2 October 2019)**
+
+
+
+
+**Reflection (7 October 2019)**
+Today we ran several test on our program, We learned how important tests are, there are two different types of testing, Dynamic and static testing. Dynamic testing is actually executing the code whereas static testing is just reading over the code. We ran alpha testing, dynamic testing, and whitebox texting.
