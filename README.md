@@ -16,7 +16,7 @@ Planning
 ----------
 **Defining the Problem (Topic 1.1.1)**
 (100-150 words explaining the context of the problem)
-The client here wants to create a simple program so that he can simply keep tabs on his car rental business. He wants to keep his data organised to increase the efficiency, productivity and quality of his business.
+The client kept all previous records offline and it proved inefficient. The client here wants to create a simple program so that he can simply keep tabs on his car rental business. He wants to keep his data organised to increase the efficiency, productivity and quality of his business. He does not want a complicated program because he doesn't know much about coding, and so he wants the program to be user skill independent.
 <br> Steps to Create a car in a system: <br>
 1. Get inputs (read/argument) (plates, model, color, passanger number)
 2. Check number of arguments. if 4 then continue, if not exit "message"
