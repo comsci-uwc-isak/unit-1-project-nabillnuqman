@@ -141,8 +141,10 @@ fi
 Evaluation
 -----------
 Test 1:
+
+
 step 1: create a car using the script create
-step 2: check that the licebse file .txt was created
+step 2: check that the license file .txt was created
 step 3: Check that the car was added to the main file
 
 The first run of the test was unsuccessful because the database folder was nonexistent, The create program did not save the plate file inside the database. To solve that, the line `echo "" > $plate.txt` to `echo > db/$plate.txt` was changed.
