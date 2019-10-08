@@ -120,6 +120,24 @@ fi
 **UpdateV2:**
 I have made a new program which instantly adds the folder into the desktop and gives the option to uninstall.
 
+### The following script deletes the car files with just the use of the plate argument ###
+```.sh
+
+#!/bin/bash
+
+if [ $# -eq 1 ]; then
+                #open maincarfile.txt and delete one line
+                #Mac sed requires a parameter after -i, so if you don't want a backup, you still have to add an empty string
+        sed -i '' "/$1/d" db/maincarfile.txt
+                #now we are entering the db file to remove the plate file
+        cd ~/Desktop/RentalCarApp/db
+        rm  $1.txt
+else
+        echo "invalid input"
+fi
+```
+
+
 Evaluation
 -----------
 Test 1:
