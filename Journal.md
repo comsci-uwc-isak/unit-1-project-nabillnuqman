@@ -24,9 +24,9 @@ Homework: Figure out a way to delete the car files and information
 
 
 **Reflection (2 October 2019)**
-
-
+Today we presented different bash programs we were assigned to, I was assigned to create a delete car program which deletes the car file and car line information. I found a way to delete the file line information but that required to put the car line information inside the code, I had a problem finding a way to implement an argument into the code and deleting that line using the argument.
 
 
 **Reflection (7 October 2019)**
-Today we ran several test on our program, We learned how important tests are, there are two different types of testing, Dynamic and static testing. Dynamic testing is actually executing the code whereas static testing is just reading over the code. We ran alpha testing, dynamic testing, and whitebox texting.
+Today we ran several test on our program, We learned how important tests are, there are two different types of testing, Dynamic and static testing. Dynamic testing is actually executing the code whereas static testing is just reading over the code. We ran alpha testing, dynamic testing, and whitebox texting. Homework: Create and fix delete car program
+Homework Update: I found a way to delete a line in the file using an argument, I used sed and apparently for mac terminal it requires a '' after s the -i. 
