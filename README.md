@@ -137,6 +137,43 @@ else
 fi
 ```
 
+### The following script summarises the car information, specifically kilometers ###
+```.sh
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+  echo "invalid input, please enter license plate"
+  exit
+fi
+```
+**This code, checks if the user enters the correct input, if it doesn't, the program exits and asks the user to enter the correct input**
+```.sh
+cd ../db/
+FILE=$1
+if [ ! -f "$1.txt" ]; then
+  echo "File $FILE does not exist."
+  exit
+fi
+```
+**This code checks if the input enters matches with an existing file, cd ../db/ is used because the summarise file is inside the scripts file so it needs to exit the script folder and enter the database folder to check if the file exists**
+
+```.sh
+total=0
+while read line;
+do
+    for km in $line
+    do
+      (( total=$total+$km ))
+      break
+    done
+  done < "$FILE.txt"
+#show results nicely
+  echo "Total kilometer of the group is $total"
+  exit
+```
+**This code reads the file and calculates the total kilometers of the data by reading the line, once calculated it echoes the total for the user**
+
+
 
 Evaluation
 -----------
