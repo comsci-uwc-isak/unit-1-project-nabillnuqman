@@ -30,3 +30,11 @@ Today we presented different bash programs we were assigned to, I was assigned t
 **Reflection (7 October 2019)**
 Today we ran several test on our program, We learned how important tests are, there are two different types of testing, Dynamic and static testing. Dynamic testing is actually executing the code whereas static testing is just reading over the code. We ran alpha testing, dynamic testing, and whitebox texting. Homework: Create and fix delete car program
 Homework Update: I found a way to delete a line in the file using an argument, I used sed and apparently for mac terminal it requires a '' after s the -i. 
+
+**Reflection (28 October 2019)**
+Q1. What skills have you developed so far?
+I've recently built up the skill of asking for help when I need it, I feel that recently I've been more open to asking questions in class when I do not understand something, even if I do not understand something in class and wait, I still turn to my good friend Shin for help. I went from no knowledge in programming at all to an adequate level of skill in my opinion, I've learned a lot in these past 2 months or so.
+
+Q2. What have worked for you in the classroom of CS?
+
+Q3. What are some things/activities/strategies that you would change in the CS classroom to achieve your best in the next 6 weeks.
