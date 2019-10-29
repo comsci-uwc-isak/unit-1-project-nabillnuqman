@@ -36,5 +36,7 @@ Q1. What skills have you developed so far?
 I've recently built up the skill of asking for help when I need it, I feel that recently I've been more open to asking questions in class when I do not understand something, even if I do not understand something in class and wait, I still turn to my good friend Shin for help. I went from no knowledge in programming at all to an adequate level of skill in my opinion, I've learned a lot in these past 2 months or so.
 
 Q2. What have worked for you in the classroom of CS?
+I think sitting next to people I'm comfortable asking questions to, I usually sit around the same people for the reason that I don't feel embarrased asking questions to them. As annoying as they are, reflections are actually pretty helpful, just even to look back and remind myself of what I've learned so far and some of the difficulties experienced. 
 
 Q3. What are some things/activities/strategies that you would change in the CS classroom to achieve your best in the next 6 weeks.
+I think prioritizing my work and keeping up with the homework is my main concern so I want to improve in those things because what usually happens is I go to class and we are given homework and I come to the next class clueless. Another I should do is revising whatever I have learned, the syntax, the commands, steps and etc. I do forget easily, even after a day after class. So what I should do is spend the time I have free on revising and reminding myself of what I've learned. 
