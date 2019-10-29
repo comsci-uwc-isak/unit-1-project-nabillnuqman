@@ -262,6 +262,37 @@ bash frame.sh "Car edited successfully"
 ```
 So all the user has to do is input the desired car plate no of the car the user wishes to change, along with the new information that is wanted. The program locates the file using the plate no and reads it and deletes the line and adds the new car information that was inputted by the user.
 
+**The following script backups the database folder into the Desktop**
+
+```.sh
+#!/bin/bash
+
+#This program makes a copy of the the database file into the desktop
+
+cp -r ~/Desktop/RentalCarApp/db ~/Desktop
+```
+**The following script allows the user uninstall the whole Car Rental App program by deleting everything**
+```.sh
+#!/bin/bash
+
+#This file uninstalls RentalCarApp by deleting all folders
+
+        echo "Are you sure you want to uninstall RentalCarApp?"
+        echo "Click enter to uninstall, Click n to go back"
+
+read back
+
+if [[ ($back == n) ]];then
+        echo "Uninstall cancelled"
+exit
+
+else
+        cd ~/Desktop
+        rm -r RentalCarApp
+        echo "RentalCarApp succesfully uninstalled"
+fi
+```
+
 Evaluation
 -----------
 Test 1:
