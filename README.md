@@ -171,9 +171,55 @@ do
   echo "Total kilometer of the group is $total"
   exit
 ```
-**This code reads the file and calculates the total kilometers of the data by reading the line, once calculated it echoes the total for the user**
+**The Following script creates a car and record trip info**
+```.sh
+!/bin/bash
 
+#this file is used to create a car and record trip info
 
+#number of arguments is incorrect, then exit
+if [ $# -ne 4 ]; then
+        Echo "Invalid Input, please enter Plate, Model, Color, and number of passengers"
+        exit
+fi
+
+#number of arguments is correct. Continue
+
+plate=$1
+model=$2
+color=$3
+pp=$4
+
+#adding new entry to file maincarfile.txt
+echo "$plate $model $color $pp" >> ~/Desktop/RentalCarApp/db/maincarfile.txt
+echo "" > db/$plate.txt
+
+bash frame.sh "Car created successfully"
+```
+**The following script is used to record the trip information about a car**
+```.sh
+#!/bin/bash
+
+#This file is used to record trip information of a car
+
+if [ $# -ne 4 ]; then
+        Echo "Invalid Input, please enter Plate, km, DateOut, and date in"
+        exit
+fi
+
+#number of arguments is correct. Continue
+
+plate=$1
+km=$2
+dateout=$3
+datein=$4
+
+if [ ! -f "$plate.txt"]; then
+echo "Car exists"
+fi
+
+echo "$plate $km $dateout $datein" >> ~/Desktop/RentalCarApp/$plate.txt
+```
 
 Evaluation
 -----------
