@@ -173,7 +173,7 @@ do
   echo "Total kilometer of the group is $total"
   exit
 ```
-**The Following script creates a car and record trip info**
+### The Following script creates a car and record trip info ###
 
 ```.sh
 !/bin/bash
@@ -201,7 +201,7 @@ bash frame.sh "Car created successfully"
 ```
 This Program allows the user to create a car, the user inputs the car info then the program moves that information into the maincarfile and creates a specific file for the specific car.
 
-**The following script is used to record the trip information about a car**
+### The following script is used to record the trip information about a car ###
 
 ```.sh
 #!/bin/bash
@@ -228,7 +228,7 @@ echo "$plate $km $dateout $datein" >> ~/Desktop/RentalCarApp/$plate.txt
 ```
 The program allows the user to input car information and the program will move the information into the specific car file.
 
-**The following script allows the user to edit a car information, the user enters the plate number and new information that is wanted to be placed instead**
+### The following script allows the user to edit a car information, the user enters the plate number and new information that is wanted to be placed instead ###
 
 ```.sh
 #!/bin/bash
@@ -262,7 +262,7 @@ bash frame.sh "Car edited successfully"
 ```
 So all the user has to do is input the desired car plate no of the car the user wishes to change, along with the new information that is wanted. The program locates the file using the plate no and reads it and deletes the line and adds the new car information that was inputted by the user.
 
-**The following script backups the database folder into the Desktop**
+### The following script backups the database folder into the Desktop ###
 
 ```.sh
 #!/bin/bash
@@ -271,7 +271,8 @@ So all the user has to do is input the desired car plate no of the car the user 
 
 cp -r ~/Desktop/RentalCarApp/db ~/Desktop
 ```
-**The following script allows the user uninstall the whole Car Rental App program by deleting everything**
+
+### The following script allows the user uninstall the whole Car Rental App program by deleting everything ###
 ```.sh
 #!/bin/bash
 
@@ -292,9 +293,6 @@ else
         echo "RentalCarApp succesfully uninstalled"
 fi
 ```
-
-Evaluation
------------
 Test 1:
 
 
@@ -332,3 +330,5 @@ Quotation marks are used for lastline are used so that the word stays as a word,
 
 **Summary:**
 We ran Dynamic tests, Alpha tests, and Whitebox tests. Dynamic tests are actually executing the code made. Alpha testing performed by testers who are usuallyinternal employees of the organization. White-box testing (also known as structural testing) looks inside the software that is being tested and uses that knowledge as part of the testing process. Whitebox testing looks inside the software that is being tested and uses that knowledge as part of the testing process.
+Evaluation
+-----------
