@@ -136,6 +136,7 @@ else
         echo "invalid input"
 fi
 ```
+This program asks the user for the license plate of a specific car and with that information the program will search for the plate no in the maincarfile and delete all the car information and will delete the specific car file.
 
 ### The following script summarises the car information, specifically kilometers ###
 ```.sh
@@ -147,6 +148,7 @@ if [ $# -ne 1 ]; then
 fi
 ```
 **This code, checks if the user enters the correct input, if it doesn't, the program exits and asks the user to enter the correct input**
+
 ```.sh
 cd ../db/
 FILE=$1
@@ -172,6 +174,7 @@ do
   exit
 ```
 **The Following script creates a car and record trip info**
+
 ```.sh
 !/bin/bash
 
@@ -196,7 +199,10 @@ echo "" > db/$plate.txt
 
 bash frame.sh "Car created successfully"
 ```
+This Program allows the user to create a car, the user inputs the car info then the program moves that information into the maincarfile and creates a specific file for the specific car.
+
 **The following script is used to record the trip information about a car**
+
 ```.sh
 #!/bin/bash
 
@@ -220,6 +226,41 @@ fi
 
 echo "$plate $km $dateout $datein" >> ~/Desktop/RentalCarApp/$plate.txt
 ```
+The program allows the user to input car information and the program will move the information into the specific car file.
+
+**The following script allows the user to edit a car information, the user enters the plate number and new information that is wanted to be placed instead**
+
+```.sh
+#!/bin/bash
+#This program edit the information of an exiting car in the
+#maincarfile
+#user enters [license place] [model] [red] [pp]
+
+if [ $# -ne 4 ]; then
+  echo "Error with the number of arguments"
+  echo "Enter License Maker Model Passengers"
+  exit
+fi
+
+license=$1
+maker=$2
+model=$3
+pp=$4
+
+
+
+if [ ! -f "$license.txt" ]; then
+  echo "File not found!"
+fi
+cd db
+#find the line with the given car plate and delete it
+sed -i '' "/^$license/d" maincarfile.txt
+#add the new information
+echo "$license $maker $model $pp" >> maincarfile.txt
+cd ..
+bash frame.sh "Car edited successfully"
+```
+So all the user has to do is input the desired car plate no of the car the user wishes to change, along with the new information that is wanted. The program locates the file using the plate no and reads it and deletes the line and adds the new car information that was inputted by the user.
 
 Evaluation
 -----------
