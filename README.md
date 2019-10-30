@@ -16,7 +16,7 @@ Planning
 ----------
 **Defining the Problem (Topic 1.1.1)**
 (100-150 words explaining the context of the problem)
-The client kept all previous records offline and it proved inefficient. The client here wants to create a simple program so that he can simply keep tabs on his car rental business. He wants to keep his data organised to increase the efficiency, productivity and quality of his business. He does not want a complicated program because he doesn't know much about coding, and so he wants the program to be user skill independent.
+The client is a Car Rental Office. The client kept all previous records offline and it proved inefficient. The client here wants to create a simple program so that he can simply keep tabs on his car rental business. He wants to keep his data organised to increase the efficiency, productivity and quality of his business. He does not want a complicated program because he doesn't know much about coding, and so he wants the program to be user skill independent.
 <br> Steps to Create a car in a system: <br>
 1. Get inputs (read/argument) (plates, model, color, passanger number)
 2. Check number of arguments. if 4 then continue, if not exit "message"
@@ -25,9 +25,8 @@ The client kept all previous records offline and it proved inefficient. The clie
 
 ### Rationale for proposed solution
 The context
-Old system
-Problems
-Motivation
+The client someone who is not really well experienced in Technology and programs, so in order to fulfill his needs we created a program in Bash terminal because it is really simple and straight forward.
+
 
 ### Success Criteria
 This are measuarable outcomes
