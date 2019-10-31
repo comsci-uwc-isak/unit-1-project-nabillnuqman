@@ -25,7 +25,7 @@ The client is a Car Rental Office. The client kept all previous records offline 
 
 ### Rationale for proposed solution
 The context
-The client someone who is not really well experienced in Technology and programs, so in order to fulfill his needs we created a program in Bash terminal because it is really simple and straight forward.
+The client someone who is not really well experienced in Technology and programs, so in order to fulfill his needs we created a program in Bash terminal because it is really simple and straight forward. We are using github to showcase the process of creating the application including the problems, successes, and possible improvements the application has gone through, so that the user understands why and how this application is working. 
 
 
 ### Success Criteria
@@ -40,11 +40,13 @@ This are measuarable outcomes
 1. A basic backup functionality.
 
 
+
 Design
 ---------
 ### First Sketch of the system
 ![SystemDiagram](ComSciSystemDiagram.jpg)
 
+###
 Development
 --------
 ### The following script creates the app folder and inside it creates two more folders: db and sports
@@ -259,6 +261,7 @@ echo "$license $maker $model $pp" >> maincarfile.txt
 cd ..
 bash frame.sh "Car edited successfully"
 ```
+
 So all the user has to do is input the desired car plate no of the car the user wishes to change, along with the new information that is wanted. The program locates the file using the plate no and reads it and deletes the line and adds the new car information that was inputted by the user.
 
 ### The following script backups the database folder into the Desktop ###
@@ -292,6 +295,21 @@ else
         echo "RentalCarApp succesfully uninstalled"
 fi
 ```
+
+### The following script summarises the car information ###
+```.sh
+
+#!/bin/bash
+for f in /Users/nabillnuqman/Desktop/RentalCarApp/db/*
+do
+echo "in" `basename "$f"` "you have"
+cat $f
+done
+```
+**Instead of summarising and showing averages and percentages, I decided with my current knowledge in programming to print the texts in the file of database** 
+
+
+
 Test 1:
 
 
