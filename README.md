@@ -46,7 +46,9 @@ Design
 ### First Sketch of the system
 ![SystemDiagram](ComSciSystemDiagram.jpg)
 
-###
+### 
+![Flow Diagram](FlowDiagram.jpg)
+
 Development
 --------
 ### The following script creates the app folder and inside it creates two more folders: db and sports
@@ -306,7 +308,7 @@ echo "in" `basename "$f"` "you have"
 cat $f
 done
 ```
-**Instead of summarising and showing averages and percentages, I decided with my current knowledge in programming to print the texts in the file of database** 
+Instead of summarising and showing averages and percentages, I decided with my current knowledge in programming to print the texts in the file of database** 
 
 
 
@@ -349,3 +351,15 @@ Quotation marks are used for lastline are used so that the word stays as a word,
 We ran Dynamic tests, Alpha tests, and Whitebox tests. Dynamic tests are actually executing the code made. Alpha testing performed by testers who are usuallyinternal employees of the organization. White-box testing (also known as structural testing) looks inside the software that is being tested and uses that knowledge as part of the testing process. Whitebox testing looks inside the software that is being tested and uses that knowledge as part of the testing process.
 Evaluation
 -----------
+### Evidence for Success Criteria
+- A car was succcessfully be created and stored in the database
+- A car information was successfuly able to be edited
+- A car was successfully able to be deleted from the database
+- The installation is of Car rental is simple and is a one step process
+- The summary (total/average distance traveked) was unable to be generated for a particular car due to lack of capability to create the program.
+- Trips can be successfuly recorded and stored for an existing car.
+- A basic database system has been successfully implemented.
+- A basic backup functionality has been successfully implemented.
+
+### Improvements for the future
+Several of the programs could have allowed the user more choice and freedom. For example, the backup command could allow the user to be given the choice of where they want to backup their database. Some of the programs like summary were made with really simple coding due to my lack of capability but could be improved to increase functionality. 
