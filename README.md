@@ -45,11 +45,12 @@ Design
 ---------
 ### First Sketch of the system
 ![SystemDiagram](ComSciSystemDiagram.jpg)
-**Fig.1**  
+**Fig.1**  Describes the first sketch of the diagram consisting of the main input and output components, actions, and software requirements.
 
 ### 
 ![Flow Diagram](FlowDiagram.jpg)
-**Fig.2** 
+**Fig.2** is a flow diagram of a testing plan for the application programs
+
 Development
 --------
 ### The following script creates the app folder and inside it creates two more folders: db and sports
