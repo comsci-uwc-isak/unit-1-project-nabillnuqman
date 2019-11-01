@@ -45,10 +45,11 @@ Design
 ---------
 ### First Sketch of the system
 ![SystemDiagram](ComSciSystemDiagram.jpg)
+**Fig.1**  
 
 ### 
 ![Flow Diagram](FlowDiagram.jpg)
-
+**Fig.2** 
 Development
 --------
 ### The following script creates the app folder and inside it creates two more folders: db and sports
