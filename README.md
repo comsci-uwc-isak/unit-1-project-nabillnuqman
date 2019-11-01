@@ -349,6 +349,7 @@ Quotation marks are used for lastline are used so that the word stays as a word,
 
 ### Summary
 We ran Dynamic tests, Alpha tests, and Whitebox tests. Dynamic tests are actually executing the code made. Alpha testing performed by testers who are usuallyinternal employees of the organization. White-box testing (also known as structural testing) looks inside the software that is being tested and uses that knowledge as part of the testing process. Whitebox testing looks inside the software that is being tested and uses that knowledge as part of the testing process.
+
 Evaluation
 -----------
 ### Evidence for Success Criteria
