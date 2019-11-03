@@ -349,8 +349,37 @@ done
 ```
 Instead of summarising and showing averages and percentages, I decided with my current knowledge in programming to print the texts in the file of database** 
 
+**Update**
+```.sh
+#!/bin/bash
+#This script gives us a summary of a specific car by kilometers travelled
 
+cd ~/Desktop/RentalCarApp/db
+n=0
+#We are now checking number of arguments
+if [ $# -ne 1 ]; then
+        echo "Enter a license plate"
+        exit
+fi
 
+#We are now checking if the car entered by the user actually exist
+if [ ! -f ~/Desktop/RentalCarApp/db/$1.txt ]; then
+        echo " File doesn't exist"
+        exit
+fi
+#We are now going to add the kilometers of a car
+ while read line;
+        do
+        for word in $line
+        do
+        n=$((n + "$word"))
+        break
+        done
+        done < "$1"
+cd ../scripts
+    bash frame.sh "The total kilometers travled by $1 is $n km"
+```
+This is an updated version of the summary script, printing the file text were pretty useless because the user could have just entered the car file instead so I made a script that adds up the total kilometers travelled by the car that is entered by the user.
 Test 1:
 
 
