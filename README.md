@@ -180,6 +180,23 @@ fi
 ```
 This program asks the user for the license plate of a specific car and with that information the program will search for the plate no in the maincarfile and delete all the car information and will delete the specific car file.
 
+### Man page for delete program ###
+```
+
+.TH man 6 "1 Nov 2019" "1.0" "delete man page"
+.SH NAME
+deletecar \- Deletes a car's information
+.SH SYNONPSIS
+bash deletecar.sh [license]
+.SH DESCRIPTION
+delete is a script that deletes a car record by deleting the car's text file and car information in maincarfile
+.SH EXAMPLES
+bash deletecar.sh LXH978
+.SH AUTHOR
+Nabill Nuqman
+```
+This is a man page explaining to the user how to use the delete program with a given example of the input
+
 ### The following script summarises the car information, specifically kilometers ###
 ```.sh
 #!/bin/bash
@@ -243,6 +260,22 @@ bash frame.sh "Car created successfully"
 ```
 This Program allows the user to create a car, the user inputs the car info then the program moves that information into the maincarfile and creates a specific file for the specific car.
 
+### Man page for create program ###
+```
+.TH man 6 "28 Oct 2019" "1.0" "create man page"
+.SH NAME
+create \- create a new car
+.SH SYNONPSIS
+bash create.sh [license] [model] [color] [passengers]
+.SH DESCRIPTION
+create is a script that creates a new record in the database
+.SH EXAMPLES
+bash create.sh LXH978 Mazda Red 3
+.SH AUTHOR
+Nabill Nuqman
+```
+This is a man page for the create program which helps describe to the user how to use the program and what inputs are needed and it shows an example of one input.
+
 ### The following script is used to record the trip information about a car ###
 
 ```.sh
@@ -269,6 +302,22 @@ fi
 echo "$plate $km $dateout $datein" >> ~/Desktop/RentalCarApp/$plate.txt
 ```
 The program allows the user to input car information and the program will move the information into the specific car file.
+
+### Man page for record program ###
+```
+.TH man 6 "1 Nov 2019" "1.0" "record man page"
+.SH NAME
+record \- record car information
+.SH SYNONPSIS
+bash record.sh [license] [km] [datein] [dateout]
+.SH DESCRIPTION
+backup is a script that is used to record car information then it moves it to the license text file
+.SH EXAMPLES
+bash record.sh lx923 203 19/11 23/11
+.SH AUTHOR
+Nabill Nuqman
+```
+This man page showcases the way to use the record program with a given example of the input
 
 ### The following script allows the user to edit a car information, the user enters the plate number and new information that is wanted to be placed instead ###
 
