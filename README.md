@@ -403,7 +403,7 @@ Evaluation
 
 ### Improvements for the future
 Several of the programs could have allowed the user more choice and freedom. For example, the backup command could allow the user to be given the choice of where they want to backup their database.
-Some of the programs like summary were made with really simple coding due to my lack of capability but could be improved to increase functionality. 
+Some of the programs like summary were made with really simple coding due to my lack of capability but could be improved to increase functionality. The summary program just collects the total distance, perhaps together with that we can calculate how many kilometers left the car has before the car has to be serviced. A car usually has to be serviced every 6 months or once a year. So that is 10,000 kilometers every six months.
 The use of bash may be very simple to someone taking a computer science course, but to someone with no knowledge of programming, it may seem very unfriendly to interact. Perhaps the platform could be scaled up. Making a interactive program that could be more user-friendly, such as a mobile application or a web program. That instead of just seeing code, could be touch interactive, with a single click could show the summary of their cars.
 Another program that could possibly be made was one with the customer details, when renting a car, a car rental shop should keep customer details incase the customer steals a car or damages the car. So another program perhaps that creates a database for the customers including (first name) (last name) (id number) (car rented).
  
