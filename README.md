@@ -25,7 +25,7 @@ The client is a Car Rental Office. The client kept all previous records offline 
 
 ### Rationale for proposed solution
 The context
-The client someone who is not really well experienced in Technology and programs, so in order to fulfill his needs we created a program in Bash terminal because it is really simple and straight forward. We are using github to showcase the process of creating the application including the problems, successes, and possible improvements the application has gone through, so that the user understands why and how this application is working. 
+The client someone who is not really well experienced in Technology and programs, so in order to fulfill his needs we created a program in Bash terminal because it is really simple and straight forward, Bash is generally already installed on most computers, particularly apple computers. We are using github to showcase the process of creating the application including the problems, successes, and possible improvements the application has gone through, so that the user understands why and how this application is working. 
 
 
 ### Success Criteria
@@ -126,6 +126,41 @@ fi
 ```
 **UpdateV2:**
 I have made a new program which instantly adds the folder into the desktop and gives the option to uninstall.
+
+**UpdateV3:**
+```.sh
+
+#!/bin/bash
+
+#THis file creates the folder strucutre for the
+#minimal Car Rental App
+
+echo "Starting the installation"
+
+cd /Users/nabillnuqman/Desktop
+#create app folder
+mkdir CarRentalApp
+
+cd CarRentalApp
+
+#create folder for database and scripts
+mkdir db
+mkdir scripts
+cp -r ~/Desktop/App/scripts/. ~/Desktop/CarRentalApp/scripts
+echo "Structure created successfully"
+  echo "Do you want to keep the file? yes/no"
+read option
+if [ $option == "yes" ]; then
+cd ~/Desktop/RentalCarApp/scripts/
+bash frame.sh "Installation Successful"
+fi
+
+if [ $option == "no" ]; then
+        cd /Users/nabillnuqman/Desktop
+        rm -r CarRentalApp
+fi
+```
+This is the updated version of the Installation program for the application, what is new to do this is that it also adds all the scripts into the application and I fixed the ability to allow the user to not keep the file if they don't want to and it will just delete the program. 
 
 ### The following script deletes the car files with just the use of the plate argument ###
 ```.sh
@@ -367,4 +402,8 @@ Evaluation
 - A basic backup functionality has been successfully implemented.
 
 ### Improvements for the future
-Several of the programs could have allowed the user more choice and freedom. For example, the backup command could allow the user to be given the choice of where they want to backup their database. Some of the programs like summary were made with really simple coding due to my lack of capability but could be improved to increase functionality. 
+Several of the programs could have allowed the user more choice and freedom. For example, the backup command could allow the user to be given the choice of where they want to backup their database.
+Some of the programs like summary were made with really simple coding due to my lack of capability but could be improved to increase functionality. 
+The use of bash may be very simple to someone taking a computer science course, but to someone with no knowledge of programming, it may seem very unfriendly to interact. Perhaps the platform could be scaled up. Making a interactive program that could be more user-friendly, such as a mobile application or a web program. That instead of just seeing code, could be touch interactive, with a single click could show the summary of their cars.
+Another program that could possibly be made was one with the customer details, when renting a car, a car rental shop should keep customer details incase the customer steals a car or damages the car. So another program perhaps that creates a database for the customers including (first name) (last name) (id number) (car rented).
+ 
