@@ -48,7 +48,7 @@ Design
 **Fig.1**  Describes the first sketch of the diagram consisting of the main input and output components, actions, and software requirements.
 
 ### 
-![Flow Diagram](FlowDiagram.jpg)
+![Testing Plan](testingplan.png)
 
 
 **Fig.2** is a flow diagram of a testing plan for the application programs
