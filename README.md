@@ -180,6 +180,9 @@ fi
 ```
 This program asks the user for the license plate of a specific car and with that information the program will search for the plate no in the maincarfile and delete all the car information and will delete the specific car file.
 
+https://stackoverflow.com/questions/5584509/search-a-string-in-a-file-and-delete-it-from-this-file-by-shell-script
+That link helped me come up with the code to remove the file.
+
 ### Man page for delete program ###
 ```
 
