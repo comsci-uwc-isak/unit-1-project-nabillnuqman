@@ -421,11 +421,13 @@ We ran Dynamic tests, Alpha tests, and Whitebox tests. Dynamic tests are actuall
 Evaluation
 -----------
 ### Evidence for Success Criteria
+![Sucess Criteria](successcriteria.png)
+**Fig.3** Describes a flow diagram to show that the success criteria was met. 
 - A car was succcessfully be created and stored in the database
 - A car information was successfuly able to be edited
 - A car was successfully able to be deleted from the database
 - The installation is of Car rental is simple and is a one step process
-- The summary (total/average distance traveked) was unable to be generated for a particular car due to lack of capability to create the program.
+- The summary (total/average distance traveked) fixed and able to be generated
 - Trips can be successfuly recorded and stored for an existing car.
 - A basic database system has been successfully implemented.
 - A basic backup functionality has been successfully implemented.
