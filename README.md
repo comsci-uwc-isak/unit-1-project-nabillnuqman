@@ -1,4 +1,10 @@
 ![CarRental](logo.png)
+```.py
+Marks=21
+Demo=-
+Total=(Marks+Demo)=21
+```
+**Graded on Nov 11**
 
 Car Rental Minimal App
 ===========================
@@ -40,6 +46,19 @@ This are measuarable outcomes
 1. A basic backup functionality.
 
 
+**Criterion A**
+
+|Level|Descriptor|
+|----|-----|
+|5|The client in the car rental office is identified and his situation described. The rationale for choosing the proposed product (Computer tools used) is justified and includes a range of appropriate criteria for evaluating the success of the product.|
+```.sh
+Rational
+* You can improve this criterion by solving the following questions about the context: Who is the client?
+Why is the product being developed?
+* One more justificaiton for using BASH is that we were learning it. 
+* Research on the internet other features of BASH that makes it a good choice for this system
+* It is, nonetheless a good first report. Well done
+```
 
 Design
 ---------
@@ -52,6 +71,18 @@ Design
 
 
 **Fig.2** is a flow diagram of a testing plan for the application programs
+
+## Criterion B
+|**level**|**Description**|
+|-----|------------|
+|6|An outline test plan is included but partially complete. A system diagram and some flow diagrams for algorithms in the product are included. They provide a basic understanding of how the product was developed.|
+```.sh
+Rationale
+* Great job with the system diagram and the test plan.
+* You are losing marks in this criterion because you did not include the descriptions after every figure. 
+The description is a paragraph that explains the figure and tells the reader why you included the figure: "As seen in Fig. 1. the system proposed for the CarRentalApp consist of ..."
+* Also you did not include the flow diagrams for at least three algorithms
+```
 
 Development
 --------
@@ -432,6 +463,17 @@ cd ../scripts
     bash frame.sh "The total kilometers travled by $1 is $n km"
 ```
 This is an updated version of the summary script, printing the file text were pretty useless because the user could have just entered the car file instead so I made a script that adds up the total kilometers travelled by the car that is entered by the user.
+
+## Criterion C
+|**level**|**Description**|
+|-----|------------|
+|5|The proposed solution is characterized by the appropriate use of existing tools. The techniques are adequate for the task and their use is explained. All sources are identified.|
+```.sh
+Rationale
+* Neat work here Nabill. Specially with the updates and by recording where you found the solutions.
+* You can also include the citations to the references of the sources that you researched in the internet using MLA format. For example: "As shown in [1], to read a file in bash we can use:"  then the reference in the bottom of the document in the References section: [1] Pinzon, Ruben. "Read files in bash", ..... 
+```
+
 Test 1:
 
 
@@ -490,3 +532,12 @@ Some of the programs like summary were made with really simple coding due to my 
 The use of bash may be very simple to someone taking a computer science course, but to someone with no knowledge of programming, it may seem very unfriendly to interact. Perhaps the platform could be scaled up. Making a interactive program that could be more user-friendly, such as a mobile application or a web program. That instead of just seeing code, could be touch interactive, with a single click could show the summary of their cars.
 Another program that could possibly be made was one with the customer details, when renting a car, a car rental shop should keep customer details incase the customer steals a car or damages the car. So another program perhaps that creates a database for the customers including (first name) (last name) (id number) (car rented).
  
+
+## Criterion D
+|**level**|**Description**|
+|-----|------------|
+|5|The product is fully evaluated against the success criteria identified in criterion A. Recommendations for further improvement of the product are realistic.|
+```.sh
+Rationale
+* You evaluation of the success criteria is sufficient and the improvement are also realistic.
+```
